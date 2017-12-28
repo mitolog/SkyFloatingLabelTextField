@@ -323,6 +323,7 @@
 				TargetAttributes = {
 					F547D4AB1C3BEA8F0075A0C2 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8A28LKL4MM;
 						LastSwiftMigration = 0810;
 					};
 					F56289171C3BE3A20082D9A6 = {
@@ -496,7 +497,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8A28LKL4MM;
 				INFOPLIST_FILE = SkyFloatingLabelTextFieldExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.skyscanner.SkyFloatingLabelTextFieldExample;
@@ -509,7 +510,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8A28LKL4MM;
 				INFOPLIST_FILE = SkyFloatingLabelTextFieldExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.skyscanner.SkyFloatingLabelTextFieldExample;

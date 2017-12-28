@@ -271,6 +271,8 @@ open class SkyFloatingLabelTextField: UITextField { // swiftlint:disable:this ty
             updateControl(true)
         }
     }
+    
+    @IBInspectable open var rightInset: CGFloat = 0.0
 
     // MARK: - Initializers
 
@@ -513,11 +515,11 @@ open class SkyFloatingLabelTextField: UITextField { // swiftlint:disable:this ty
     override open func textRect(forBounds bounds: CGRect) -> CGRect {
         let superRect = super.textRect(forBounds: bounds)
         let titleHeight = self.titleHeight()
-
+        
         let rect = CGRect(
             x: superRect.origin.x,
             y: titleHeight,
-            width: superRect.size.width,
+            width: superRect.size.width - rightInset,
             height: superRect.size.height - titleHeight - selectedLineHeight
         )
         return rect
@@ -535,7 +537,7 @@ open class SkyFloatingLabelTextField: UITextField { // swiftlint:disable:this ty
         let rect = CGRect(
             x: superRect.origin.x,
             y: titleHeight,
-            width: superRect.size.width,
+            width: superRect.size.width - rightInset,
             height: superRect.size.height - titleHeight - selectedLineHeight
         )
         return rect
